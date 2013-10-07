@@ -407,16 +407,21 @@ ROOT_URLCONF = 'lms.urls'
 IGNORABLE_404_ENDS = ('favicon.ico')
 
 # Email
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'registration@edx.org'
-DEFAULT_BULK_FROM_EMAIL = 'course-updates@edx.org'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+DEFAULT_FROM_EMAIL = 'ancleemail@gmail.com'
+DEFAULT_BULK_FROM_EMAIL = 'ancleemail@gmail.com'
 EMAILS_PER_TASK = 100
 EMAILS_PER_QUERY = 1000
-DEFAULT_FEEDBACK_EMAIL = 'feedback@edx.org'
-SERVER_EMAIL = 'devops@edx.org'
-TECH_SUPPORT_EMAIL = 'technical@edx.org'
-CONTACT_EMAIL = 'info@edx.org'
-BUGS_EMAIL = 'bugs@edx.org'
+DEFAULT_FEEDBACK_EMAIL = 'ancleemail@gmail.com'
+SERVER_EMAIL = 'ancleemail@gmail.com'
+TECH_SUPPORT_EMAIL = 'ancleemail@gmail.com'
+CONTACT_EMAIL = 'ancleemail@gmail.com'
+BUGS_EMAIL = 'ancleemail@gmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'ancleemail'
+EMAIL_HOST_PASSWORD = 'ancle00000'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 ADMINS = ()
 MANAGERS = ADMINS
 
@@ -433,9 +438,16 @@ STATICFILES_DIRS = [
 FAVICON_PATH = 'images/favicon.ico'
 
 # Locale/Internationalization
-TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
-USE_I18N = False
+#TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
+TIME_ZONE = 'Asia/Seoul'
+
+#LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'ko_KR'
+
+#USE_I18N = False
+USE_I18N = True
+ 
+#USE_L10N = False
 USE_L10N = True
 
 # Localization strings (e.g. django.po) are under this directory

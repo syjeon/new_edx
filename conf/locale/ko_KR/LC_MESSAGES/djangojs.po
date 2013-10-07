@@ -1,0 +1,465 @@
+# edX translation file
+# This English source file is machine-generated. Do not check it into github.
+# Copyright (C) 2013 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# jdpark7 <jdpark7@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: translation_team@edx.org\n"
+"POT-Creation-Date: 2013-09-04 15:44-0400\n"
+"PO-Revision-Date: 2013-09-05 04:10+0000\n"
+"Last-Translator: jdpark7 <jdpark7@gmail.com>\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/edx-platform/language/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/static/js/base.js:83
+msgid "This link will open in a new browser window/tab"
+msgstr "이 링크는 새 브라우저 창/탭에서 열립니다."
+
+#: cms/static/js/base.js:86
+msgid "This link will open in a modal window"
+msgstr "이 링크는 모달 창에서 열립니다."
+
+#: cms/static/js/base.js:204
+msgid "Collapse All Sections"
+msgstr "모든 섹션 접기"
+
+#: cms/static/js/base.js:206
+msgid "Expand All Sections"
+msgstr "모든 섹션 펼치기"
+
+#: cms/static/js/base.js:245
+msgid ""
+"File format not supported. Please upload a file with a <code>tar.gz</code> "
+"extension."
+msgstr "파일 형식이 지원되지 않습니다. 확장자가 <code>tar.gz</code>인 파일을 업로드 하십시요."
+
+#: cms/static/js/base.js:335
+msgid "There has been an error while saving your changes."
+msgstr "변경사항을 저장하는 동안 오류가 발생하였습니다."
+
+#: cms/static/js/base.js:382
+msgid "Delete this "
+msgstr "이것 삭제"
+
+#: cms/static/js/base.js:383
+msgid "Deleting this "
+msgstr "이것 삭제"
+
+#: cms/static/js/base.js:386
+msgid "Yes, delete this "
+msgstr "예, 삭제합니다."
+
+#: cms/static/js/base.js:398 cms/static/js/views/course_info_edit.js:186
+#: cms/static/js/views/textbook.js:38
+msgid "Deleting"
+msgstr "삭제중"
+
+#: cms/static/js/base.js:414 cms/static/js/views/assets.js:43
+#: cms/static/js/views/course_info_edit.js:204
+#: cms/static/js/views/textbook.js:48
+#: cms/static/js/views/validating_view.js:112
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:92
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:204
+msgid "Cancel"
+msgstr "취소"
+
+#: cms/static/js/base.js:462
+msgid "Hide Studio Help"
+msgstr "스튜디오 도움말 감추기"
+
+#: cms/static/js/base.js:464
+msgid "Looking for Help with Studio?"
+msgstr "스튜디오에 대한 도움이 필요하십니까?"
+
+#: cms/static/js/base.js:626
+msgid "Please do not use any spaces or special characters in this field."
+msgstr "이 필드에 공백이나 특수문자를 사용하지 마십시요."
+
+#: cms/static/js/base.js:641
+msgid ""
+"Course fields must have a combined length of no more than 80 characters."
+msgstr "강좌 필드는 총 80문자 이하의 길이를 가질 수 있습니다."
+
+#: cms/static/js/base.js:676
+msgid "Required field."
+msgstr "필수 항목"
+
+#: cms/static/js/base.js:843 cms/static/js/models/section.js:26
+#: cms/static/js/views/course_info_edit.js:121
+#: cms/static/js/views/course_info_edit.js:330
+#: cms/static/js/views/grader-select-view.js:85
+#: cms/static/js/views/overview.js:229 cms/static/js/views/textbook.js:125
+msgid "Saving"
+msgstr "저장"
+
+#: cms/static/js/base.js:868
+msgid "Will Release:"
+msgstr "공개 될 예정입니다:"
+
+#: cms/static/js/base.js:869
+msgid "{month}/{day}/{year} at {hour}:{minute} UTC"
+msgstr "{month}/{day}/{year} - {hour}:{minute} UTC"
+
+#: cms/static/js/base.js:872
+msgid "Edit"
+msgstr "편집"
+
+#: cms/static/js/models/course.js:7 cms/static/js/models/section.js:7
+msgid "You must specify a name"
+msgstr "이름을 명시해야 합니다."
+
+#: cms/static/js/models/uploads.js:16
+msgid ""
+"Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
+"<%= fileExtensions %> to upload."
+msgstr " <%= fileTypes %> 파일만 업로드 될 수 있습니다.  업로드 하기 위해 확장자가 <%= fileExtensions %> 파일을 선택하세요."
+
+#: cms/static/js/models/uploads.js:41
+msgid "or"
+msgstr "혹은"
+
+#: cms/static/js/models/settings/course_details.js:43
+msgid "The course must have an assigned start date."
+msgstr "강좌는 할당된 시작일이 있어야 합니다."
+
+#: cms/static/js/models/settings/course_details.js:46
+msgid "The course end date cannot be before the course start date."
+msgstr "강좌 종료일은 강좌 시작일 이전이 될 수 없습니다."
+
+#: cms/static/js/models/settings/course_details.js:49
+msgid "The course start date cannot be before the enrollment start date."
+msgstr "강좌 시작일은 강좌 등록 개시일 이전이 될 수 없습니다."
+
+#: cms/static/js/models/settings/course_details.js:52
+msgid "The enrollment start date cannot be after the enrollment end date."
+msgstr "강좌 등록 시작일은 강좌 등록 마감일 이후가 될 수 없습니다."
+
+#: cms/static/js/models/settings/course_details.js:55
+msgid "The enrollment end date cannot be after the course end date."
+msgstr "강좌 등록 마감일은 강좌 종료일 이후가 될 수 없습니다."
+
+#: cms/static/js/models/settings/course_details.js:59
+msgid "Key should only contain letters, numbers, _, or -"
+msgstr "키는 글자,숫자,_ 혹은 - 만 포함할 수 있습니다."
+
+#: cms/static/js/models/settings/course_grading_policy.js:70
+msgid "Grace period must be specified in HH:MM format."
+msgstr "추가 연장 기간은 HH:MM 형식으로 명시되어야 합니다."
+
+#: cms/static/js/models/settings/course_grading_policy.js:107
+msgid "There's already another assignment type with this name."
+msgstr "같은 이름의 과제가 이미 있습니다."
+
+#: cms/static/js/models/settings/course_grading_policy.js:114
+msgid "Please enter an integer between 0 and 100."
+msgstr "0에서 100 사이의 정수를 입력하세요."
+
+#: cms/static/js/models/settings/course_grading_policy.js:128
+#: cms/static/js/models/settings/course_grading_policy.js:134
+msgid "Please enter an integer."
+msgstr "정수를 입력하세요."
+
+#: cms/static/js/models/settings/course_grading_policy.js:140
+msgid "Cannot drop more <% attrs.types %> than will assigned."
+msgstr "할당 받은 것보다 많은 <% attrs.types %> 을 드롭할 수 없습니다."
+
+#: cms/static/js/views/assets.js:13
+msgid "Delete File Confirmation"
+msgstr "파일 삭제 확인"
+
+#: cms/static/js/views/assets.js:14
+msgid ""
+"Are you sure you wish to delete this item. It cannot be reversed!\n"
+"\n"
+"Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
+msgstr "이 항목을 삭제하기를 원하십니까? 되돌릴 수 없습니다.\n\n또한 이 항목에 링크하거나 참조한 콘텐츠는 더 이상 동작하지 않을 것입니다.(예. 깨진 이미지 혹은 링크)"
+
+#: cms/static/js/views/assets.js:17
+#: cms/static/js/views/course_info_edit.js:178
+msgid "OK"
+msgstr "OK"
+
+#: cms/static/js/views/assets.js:27
+msgid "Your file has been deleted."
+msgstr "파일이 삭제되었습니다."
+
+#: cms/static/js/views/assets.js:70
+msgid "Uploading…"
+msgstr "업도딩..."
+
+#: cms/static/js/views/assets.js:103
+msgid "Load Another File"
+msgstr "다른 파일 로드"
+
+#: cms/static/js/views/course_info_edit.js:174
+msgid "Are you sure you want to delete this update?"
+msgstr "이 업데이트를 삭제하기를 원하십니까?"
+
+#: cms/static/js/views/course_info_edit.js:175
+msgid "This action cannot be undone."
+msgstr "이 행위는 되돌릴 수 없습니다"
+
+#: cms/static/js/views/section.js:71
+msgid "Your change could not be saved"
+msgstr "변경이 저장될 수 없었습니다."
+
+#: cms/static/js/views/section.js:75
+msgid "Return and resolve this issue"
+msgstr "되돌아 가서 이 문제 해결"
+
+#: cms/static/js/views/textbook.js:29
+msgid "Delete “<%= name %>”?"
+msgstr "“<%= name %>”를 삭제하나요?"
+
+#: cms/static/js/views/textbook.js:31
+msgid ""
+"Deleting a textbook cannot be undone and once deleted any reference to it in"
+" your courseware's navigation will also be removed."
+msgstr "교재를 삭제하는 것은 되돌릴 수 없습니다. 일단 삭제되면 강좌물의 찾아가기에서의 참조도 제거될 것입니다."
+
+#: cms/static/js/views/textbook.js:34
+msgid "Delete"
+msgstr "삭제"
+
+#: cms/static/js/views/textbook.js:244
+msgid "Upload a new PDF to “<%= name %>”"
+msgstr " “<%= name %>”에 새 PDF 업로드"
+
+#: cms/static/js/views/uploads.js:102
+msgid "We're sorry, there was an error"
+msgstr "죄송합니다. 오류가 있었습니다."
+
+#: cms/static/js/views/validating_view.js:12
+msgid "You've made some changes"
+msgstr "수정을 하였습니다."
+
+#: cms/static/js/views/validating_view.js:13
+msgid "Your changes will not take effect until you save your progress."
+msgstr "진도를 저장하기 전에는 변경사항이 적용되지 않을 것입니다."
+
+#: cms/static/js/views/validating_view.js:14
+msgid "You've made some changes, but there are some errors"
+msgstr "몇가지 변경을 하였는데 오류가 있습니다."
+
+#: cms/static/js/views/validating_view.js:15
+msgid ""
+"Please address the errors on this page first, and then save your progress."
+msgstr "이 페이지에 있는 오류를 해결한 다음 진도를 저장하십시요."
+
+#: cms/static/js/views/validating_view.js:103
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: cms/static/js/views/validating_view.js:131
+msgid "Your changes have been saved."
+msgstr "변경사항이 저장되었습니다."
+
+#: cms/static/js/views/settings/advanced_view.js:55
+msgid ""
+"Your changes will not take effect until you save your progress. Take care "
+"with key and value formatting, as validation is not implemented."
+msgstr "진도를 저장하기 전에는 변경사항이 적용되지 않을 것입니다. 유효성 검증이 구현되지 않았으므로 키와 값 포멧팅에 주의를 기울이십시요."
+
+#: cms/static/js/views/settings/advanced_view.js:104
+msgid "Your policy changes have been saved."
+msgstr "정책 변경사항이 저장되었습니다."
+
+#: cms/static/js/views/settings/advanced_view.js:105
+msgid ""
+"Please note that validation of your policy key and value pairs is not "
+"currently in place yet. If you are having difficulties, please review your "
+"policy pairs."
+msgstr "정책 키와 값 쌍의 유효성 검증이 아직 준비되지 않았음을 유념하십시요. 문제가 발생하면 정책  키와 값 쌍을 살펴보십시요."
+
+#: cms/static/js/views/settings/main_settings_view.js:248
+msgid "Upload your course image."
+msgstr "강좌 이미지를 업로드 하십시요."
+
+#: cms/static/js/views/settings/main_settings_view.js:249
+msgid "Files must be in JPEG or PNG format."
+msgstr "파일은 JPEG 혹은 PNG 포맷이어야 합니다."
+
+#: common/lib/xmodule/xmodule/js/src/video/04_video_control.js:130
+msgid "Pause"
+msgstr "일시정지"
+
+#: common/lib/xmodule/xmodule/js/src/video/04_video_control.js:135
+msgid "Play"
+msgstr "재생"
+
+#: common/lib/xmodule/xmodule/js/src/video/04_video_control.js:157
+msgid "Fullscreen"
+msgstr "전체 화면"
+
+#: common/lib/xmodule/xmodule/js/src/video/04_video_control.js:162
+msgid "Exit fullscreen"
+msgstr "전체화면 빠져나오기"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:183
+msgid "Caption will be displayed when "
+msgstr "캡션이 다음의 경우 표시됩니다."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:479
+msgid "Turn on captions"
+msgstr "캡션 켜기"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:484
+msgid "Turn off captions"
+msgstr "캡션 끄기"
+
+#: lms/static/admin/js/SelectFilter2.js:45
+#, c-format
+msgid "Available %s"
+msgstr "사용가능한 %s"
+
+#: lms/static/admin/js/SelectFilter2.js:46
+#, c-format
+msgid ""
+"This is the list of available %s. You may choose some by selecting them in "
+"the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr "사용가능한  %s 목록입니다. 아래 상자에서 항목들을 선택하고 두 상자 사이에 있는 \"선택\" 화살표를 클릭하세요."
+
+#: lms/static/admin/js/SelectFilter2.js:53
+#, c-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr "사용가능한 %s 목록을 필터하기 위해 이 상자에 입력하세요."
+
+#: lms/static/admin/js/SelectFilter2.js:57
+msgid "Filter"
+msgstr "필터"
+
+#: lms/static/admin/js/SelectFilter2.js:61
+msgid "Choose all"
+msgstr "모두 선택"
+
+#: lms/static/admin/js/SelectFilter2.js:61
+#, c-format
+msgid "Click to choose all %s at once."
+msgstr "모든 %s를 한번에 선택하기 위해 클릭하세요"
+
+#: lms/static/admin/js/SelectFilter2.js:67
+msgid "Choose"
+msgstr "선택"
+
+#: lms/static/admin/js/SelectFilter2.js:69
+msgid "Remove"
+msgstr "제거"
+
+#: lms/static/admin/js/SelectFilter2.js:75
+#, c-format
+msgid "Chosen %s"
+msgstr "선택된 %s"
+
+#: lms/static/admin/js/SelectFilter2.js:76
+#, c-format
+msgid ""
+"This is the list of chosen %s. You may remove some by selecting them in the "
+"box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr "선택된 %s 목록입니다. 아래 상자에서 선택한 다음 두 상자 사이에 있는 \"제거\" 화살표를 클릭해서 그것들을 제거할 수 있습니다."
+
+#: lms/static/admin/js/SelectFilter2.js:80
+msgid "Remove all"
+msgstr "모두 제거"
+
+#: lms/static/admin/js/SelectFilter2.js:80
+#, c-format
+msgid "Click to remove all chosen %s at once."
+msgstr "한번에 선택된 모든 %s를 제거하기 위해서는 클릭하세요"
+
+#: lms/static/admin/js/actions.js:18 lms/static/admin/js/actions.min.js:1
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] "%(cnt)s 중에 %(sel)s 이 선택됨 "
+
+#: lms/static/admin/js/actions.js:109 lms/static/admin/js/actions.min.js:5
+msgid ""
+"You have unsaved changes on individual editable fields. If you run an "
+"action, your unsaved changes will be lost."
+msgstr "개별 편집가능한 항목에 저장되지 않은 변경사항이 있습니다. 액션을 실행시키면 저장되지 않은 변경사항은 잃어버리게 됩니다."
+
+#: lms/static/admin/js/actions.js:121 lms/static/admin/js/actions.min.js:6
+msgid ""
+"You have selected an action, but you haven't saved your changes to "
+"individual fields yet. Please click OK to save. You'll need to re-run the "
+"action."
+msgstr "액션을 선택하였지만 각 필드에 변경사항을 저장하지 않았습니다. 저장하기 위해서는 OK를 클릭하세요, 액션을 재실행 할 필요가 있습니다."
+
+#: lms/static/admin/js/actions.js:123 lms/static/admin/js/actions.min.js:6
+msgid ""
+"You have selected an action, and you haven't made any changes on individual "
+"fields. You're probably looking for the Go button rather than the Save "
+"button."
+msgstr "액션을 선택하였고 각 필드에 변경사항이 없습니다. 저장버튼 대신 진행 버튼을 찾으시는것 같습니다."
+
+#: lms/static/admin/js/calendar.js:26 lms/static/admin/js/dateparse.js:32
+msgid ""
+"January February March April May June July August September October November"
+" December"
+msgstr "1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월"
+
+#: lms/static/admin/js/calendar.js:27
+msgid "S M T W T F S"
+msgstr "일 월 화 수 목 금 토 "
+
+#: lms/static/admin/js/collapse.js:8 lms/static/admin/js/collapse.js.c:19
+#: lms/static/admin/js/collapse.min.js:1
+msgid "Show"
+msgstr "보기"
+
+#: lms/static/admin/js/collapse.js:15 lms/static/admin/js/collapse.min.js:1
+msgid "Hide"
+msgstr "감추기"
+
+#: lms/static/admin/js/dateparse.js:33
+msgid "Sunday Monday Tuesday Wednesday Thursday Friday Saturday"
+msgstr "일요일 월요일 화요일 수요일 목요일 금요일 토요일"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:49
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:85
+msgid "Now"
+msgstr "지금"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:53
+msgid "Clock"
+msgstr "시계"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:81
+msgid "Choose a time"
+msgstr "시간을 선택하세요"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:86
+msgid "Midnight"
+msgstr "한밤중"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:87
+msgid "6 a.m."
+msgstr "오전 6시"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:88
+msgid "Noon"
+msgstr "점심"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:144
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:197
+msgid "Today"
+msgstr "오늘"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:148
+msgid "Calendar"
+msgstr "달력"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:195
+msgid "Yesterday"
+msgstr "어제"
+
+#: lms/static/admin/js/admin/DateTimeShortcuts.js:199
+msgid "Tomorrow"
+msgstr "내일"

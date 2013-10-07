@@ -188,10 +188,15 @@ ROOT_URLCONF = 'cms.urls'
 IGNORABLE_404_ENDS = ('favicon.ico')
 
 # Email
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'registration@edx.org'
-DEFAULT_FEEDBACK_EMAIL = 'feedback@edx.org'
-SERVER_EMAIL = 'devops@edx.org'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+DEFAULT_FROM_EMAIL = 'ancleemail@gmail.com'
+DEFAULT_FEEDBACK_EMAIL = 'ancleemail@gmail.com'
+SERVER_EMAIL = 'ancleemail@gmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'ancleemail'
+EMAIL_HOST_PASSWORD = 'ancle00000'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 ADMINS = ()
 MANAGERS = ADMINS
 
